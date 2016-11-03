@@ -8,20 +8,46 @@
 
 /* Begin PBXBuildFile section */
 		1B7F8C2E1DCBC8F400FC6D93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7F8C2D1DCBC8F400FC6D93 /* AppDelegate.swift */; };
-		1B7F8C301DCBC8F400FC6D93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7F8C2F1DCBC8F400FC6D93 /* ViewController.swift */; };
 		1B7F8C331DCBC8F400FC6D93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B7F8C311DCBC8F400FC6D93 /* Main.storyboard */; };
 		1B7F8C351DCBC8F400FC6D93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B7F8C341DCBC8F400FC6D93 /* Assets.xcassets */; };
 		1B7F8C381DCBC8F400FC6D93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B7F8C361DCBC8F400FC6D93 /* LaunchScreen.storyboard */; };
+		1B7F8C401DCBCA2300FC6D93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7F8C3F1DCBCA2300FC6D93 /* ViewController.swift */; };
+		1B7F8C431DCBCAE400FC6D93 /* forwardButtonPNG120.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B7F8C421DCBCAE400FC6D93 /* forwardButtonPNG120.png */; };
+		1B7F8C451DCBCB6000FC6D93 /* forwardButtonPNG20.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B7F8C441DCBCB6000FC6D93 /* forwardButtonPNG20.png */; };
+		1B7F8C471DCBCB9100FC6D93 /* forwardButtonPNG40.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B7F8C461DCBCB9100FC6D93 /* forwardButtonPNG40.png */; };
+		1B7F8C491DCBCBAF00FC6D93 /* forwardButtonPNG80.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B7F8C481DCBCBAF00FC6D93 /* forwardButtonPNG80.png */; };
+		1B7F8C4B1DCBCBF800FC6D93 /* forwardButtonPNG29.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B7F8C4A1DCBCBF800FC6D93 /* forwardButtonPNG29.png */; };
+		1B7F8C4D1DCBCC0C00FC6D93 /* forwardButtonPNG58.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B7F8C4C1DCBCC0C00FC6D93 /* forwardButtonPNG58.png */; };
+		1B7F8C4F1DCBCC5900FC6D93 /* forwardButtonPNG76.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B7F8C4E1DCBCC5900FC6D93 /* forwardButtonPNG76.png */; };
+		1B7F8C511DCBCC9E00FC6D93 /* forwardButtonPNG152.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B7F8C501DCBCC9E00FC6D93 /* forwardButtonPNG152.png */; };
+		1B7F8C531DCBCD1300FC6D93 /* forwardButtonPNG167.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B7F8C521DCBCD1300FC6D93 /* forwardButtonPNG167.png */; };
+		1B7F8C551DCBCFF500FC6D93 /* ios - Transport security has blocked a cleartext HTTP - Stack Overflow.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1B7F8C541DCBCFF500FC6D93 /* ios - Transport security has blocked a cleartext HTTP - Stack Overflow.pdf */; };
+		1B7F8C571DCBD28000FC6D93 /* backButton58.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B7F8C561DCBD28000FC6D93 /* backButton58.png */; };
+		1B7F8C591DCBD28B00FC6D93 /* homeButton58.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1B7F8C581DCBD28B00FC6D93 /* homeButton58.jpeg */; };
+		1B7F8C5B1DCBD2E200FC6D93 /* homeButton58.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B7F8C5A1DCBD2E200FC6D93 /* homeButton58.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1B7F8C2A1DCBC8F400FC6D93 /* myAppIPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myAppIPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B7F8C2D1DCBC8F400FC6D93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1B7F8C2F1DCBC8F400FC6D93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1B7F8C321DCBC8F400FC6D93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1B7F8C341DCBC8F400FC6D93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B7F8C371DCBC8F400FC6D93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B7F8C391DCBC8F400FC6D93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B7F8C3F1DCBCA2300FC6D93 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
+		1B7F8C421DCBCAE400FC6D93 /* forwardButtonPNG120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forwardButtonPNG120.png; sourceTree = "<group>"; };
+		1B7F8C441DCBCB6000FC6D93 /* forwardButtonPNG20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forwardButtonPNG20.png; sourceTree = "<group>"; };
+		1B7F8C461DCBCB9100FC6D93 /* forwardButtonPNG40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forwardButtonPNG40.png; sourceTree = "<group>"; };
+		1B7F8C481DCBCBAF00FC6D93 /* forwardButtonPNG80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forwardButtonPNG80.png; sourceTree = "<group>"; };
+		1B7F8C4A1DCBCBF800FC6D93 /* forwardButtonPNG29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forwardButtonPNG29.png; sourceTree = "<group>"; };
+		1B7F8C4C1DCBCC0C00FC6D93 /* forwardButtonPNG58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forwardButtonPNG58.png; sourceTree = "<group>"; };
+		1B7F8C4E1DCBCC5900FC6D93 /* forwardButtonPNG76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forwardButtonPNG76.png; sourceTree = "<group>"; };
+		1B7F8C501DCBCC9E00FC6D93 /* forwardButtonPNG152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forwardButtonPNG152.png; sourceTree = "<group>"; };
+		1B7F8C521DCBCD1300FC6D93 /* forwardButtonPNG167.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forwardButtonPNG167.png; sourceTree = "<group>"; };
+		1B7F8C541DCBCFF500FC6D93 /* ios - Transport security has blocked a cleartext HTTP - Stack Overflow.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "ios - Transport security has blocked a cleartext HTTP - Stack Overflow.pdf"; sourceTree = "<group>"; };
+		1B7F8C561DCBD28000FC6D93 /* backButton58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backButton58.png; sourceTree = "<group>"; };
+		1B7F8C581DCBD28B00FC6D93 /* homeButton58.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = homeButton58.jpeg; sourceTree = "<group>"; };
+		1B7F8C5A1DCBD2E200FC6D93 /* homeButton58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homeButton58.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +80,35 @@
 		1B7F8C2C1DCBC8F400FC6D93 /* myAppIPad */ = {
 			isa = PBXGroup;
 			children = (
+				1B7F8C411DCBCAA600FC6D93 /* pics */,
 				1B7F8C2D1DCBC8F400FC6D93 /* AppDelegate.swift */,
-				1B7F8C2F1DCBC8F400FC6D93 /* ViewController.swift */,
+				1B7F8C3F1DCBCA2300FC6D93 /* ViewController.swift */,
 				1B7F8C311DCBC8F400FC6D93 /* Main.storyboard */,
+				1B7F8C541DCBCFF500FC6D93 /* ios - Transport security has blocked a cleartext HTTP - Stack Overflow.pdf */,
 				1B7F8C341DCBC8F400FC6D93 /* Assets.xcassets */,
 				1B7F8C361DCBC8F400FC6D93 /* LaunchScreen.storyboard */,
 				1B7F8C391DCBC8F400FC6D93 /* Info.plist */,
 			);
 			path = myAppIPad;
+			sourceTree = "<group>";
+		};
+		1B7F8C411DCBCAA600FC6D93 /* pics */ = {
+			isa = PBXGroup;
+			children = (
+				1B7F8C421DCBCAE400FC6D93 /* forwardButtonPNG120.png */,
+				1B7F8C5A1DCBD2E200FC6D93 /* homeButton58.png */,
+				1B7F8C4C1DCBCC0C00FC6D93 /* forwardButtonPNG58.png */,
+				1B7F8C4E1DCBCC5900FC6D93 /* forwardButtonPNG76.png */,
+				1B7F8C561DCBD28000FC6D93 /* backButton58.png */,
+				1B7F8C441DCBCB6000FC6D93 /* forwardButtonPNG20.png */,
+				1B7F8C521DCBCD1300FC6D93 /* forwardButtonPNG167.png */,
+				1B7F8C501DCBCC9E00FC6D93 /* forwardButtonPNG152.png */,
+				1B7F8C4A1DCBCBF800FC6D93 /* forwardButtonPNG29.png */,
+				1B7F8C581DCBD28B00FC6D93 /* homeButton58.jpeg */,
+				1B7F8C481DCBCBAF00FC6D93 /* forwardButtonPNG80.png */,
+				1B7F8C461DCBCB9100FC6D93 /* forwardButtonPNG40.png */,
+			);
+			name = pics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,9 +171,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B7F8C4F1DCBCC5900FC6D93 /* forwardButtonPNG76.png in Resources */,
 				1B7F8C381DCBC8F400FC6D93 /* LaunchScreen.storyboard in Resources */,
+				1B7F8C511DCBCC9E00FC6D93 /* forwardButtonPNG152.png in Resources */,
+				1B7F8C471DCBCB9100FC6D93 /* forwardButtonPNG40.png in Resources */,
+				1B7F8C591DCBD28B00FC6D93 /* homeButton58.jpeg in Resources */,
+				1B7F8C5B1DCBD2E200FC6D93 /* homeButton58.png in Resources */,
+				1B7F8C4B1DCBCBF800FC6D93 /* forwardButtonPNG29.png in Resources */,
+				1B7F8C571DCBD28000FC6D93 /* backButton58.png in Resources */,
+				1B7F8C451DCBCB6000FC6D93 /* forwardButtonPNG20.png in Resources */,
+				1B7F8C551DCBCFF500FC6D93 /* ios - Transport security has blocked a cleartext HTTP - Stack Overflow.pdf in Resources */,
 				1B7F8C351DCBC8F400FC6D93 /* Assets.xcassets in Resources */,
 				1B7F8C331DCBC8F400FC6D93 /* Main.storyboard in Resources */,
+				1B7F8C4D1DCBCC0C00FC6D93 /* forwardButtonPNG58.png in Resources */,
+				1B7F8C491DCBCBAF00FC6D93 /* forwardButtonPNG80.png in Resources */,
+				1B7F8C531DCBCD1300FC6D93 /* forwardButtonPNG167.png in Resources */,
+				1B7F8C431DCBCAE400FC6D93 /* forwardButtonPNG120.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B7F8C301DCBC8F400FC6D93 /* ViewController.swift in Sources */,
+				1B7F8C401DCBCA2300FC6D93 /* ViewController.swift in Sources */,
 				1B7F8C2E1DCBC8F400FC6D93 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
