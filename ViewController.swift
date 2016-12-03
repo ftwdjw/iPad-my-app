@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UIWebViewDelegate {
     
     
 
@@ -23,7 +23,11 @@ class ViewController: UIViewController {
         let url = NSURL (string: "http://www.wsj.com/");
         let requestObj = NSURLRequest(url: url! as URL);
         webView.loadRequest(requestObj as URLRequest);
+        webView.scalesPageToFit = true
         print("\nnow at home")
+        URLCache.shared.removeAllCachedResponses()
+        
+        print("removed cache")
     }
     
     
@@ -40,14 +44,36 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         let url = NSURL (string: "http://www.wsj.com/");
         let requestObj = NSURLRequest(url: url! as URL);
-        webView.loadRequest(requestObj as URLRequest);
+        self.webView.loadRequest(requestObj as URLRequest);
+        
+        self.webView.delegate = self
+        print("web view did load")
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+        
+        //Remove all cache
+        URLCache.shared.removeAllCachedResponses()
+        
+         print("removed cache")
+        
+        
+        // deleting any associated cookies
+        if let cookies = HTTPCookieStorage.shared.cookies{
+        for cookie in cookies {
+            HTTPCookieStorage.shared.deleteCookie(cookie)
+        }
     }
-
-
+        
+    }
 }
+    
+    
+
+
+
 
