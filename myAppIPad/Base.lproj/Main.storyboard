@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
+    <device id="ipad9_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -18,68 +18,42 @@
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <view key="view" multipleTouchEnabled="YES" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <webView contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="yFu-mt-uho">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="677"/>
+                                <rect key="frame" x="4" y="0.0" width="760" height="1034"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B7o-5K-l9O">
-                                <rect key="frame" x="126" y="28" width="107" height="58"/>
-                                <state key="normal" title="Home" image="homeButton58.png"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4R7-mu-uui" userLabel="NewHome">
+                                <rect key="frame" x="20" y="0.0" width="64" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="NewHome.png"/>
                                 <connections>
-                                    <action selector="goHome:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oSg-SE-CsW"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yPy-qe-2Kf">
-                                <rect key="frame" x="197" y="28" width="62" height="58"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="62" id="uK6-od-h0c"/>
-                                </constraints>
-                                <state key="normal" title="Forward" image="forwardButtonPNG58.png"/>
-                                <connections>
-                                    <action selector="goForward:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lD0-Dc-Qvx"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ei1-xR-Rca">
-                                <rect key="frame" x="43" y="28" width="46" height="58"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="46" id="TgZ-lU-hjP"/>
-                                </constraints>
-                                <state key="normal" title="Back" image="backButton58.png"/>
-                                <connections>
-                                    <action selector="goBack:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2Hr-1j-GAW"/>
+                                    <action selector="newHome:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LaP-w1-l4E"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.96862745100000003" green="0.95234170809999996" blue="0.33592860320000001" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="yPy-qe-2Kf" firstAttribute="leading" secondItem="B7o-5K-l9O" secondAttribute="trailing" constant="-36" id="1g0-Tk-fHf"/>
                             <constraint firstItem="yFu-mt-uho" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="83I-rh-qim"/>
-                            <constraint firstItem="yPy-qe-2Kf" firstAttribute="baseline" secondItem="B7o-5K-l9O" secondAttribute="baseline" id="LxG-nz-eBA"/>
                             <constraint firstAttribute="trailingMargin" secondItem="yFu-mt-uho" secondAttribute="trailing" constant="-16" id="RPO-76-t7n"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="yPy-qe-2Kf" secondAttribute="trailing" constant="100" id="Vrw-iz-lzM"/>
                             <constraint firstAttribute="bottomMargin" secondItem="yFu-mt-uho" secondAttribute="bottom" constant="-10" id="WO8-5x-UWo"/>
-                            <constraint firstItem="yPy-qe-2Kf" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="XAc-xc-yj4"/>
-                            <constraint firstItem="yPy-qe-2Kf" firstAttribute="top" secondItem="Ei1-xR-Rca" secondAttribute="top" id="uMT-wq-SHw"/>
-                            <constraint firstItem="B7o-5K-l9O" firstAttribute="leading" secondItem="Ei1-xR-Rca" secondAttribute="trailing" constant="37" id="uQo-pv-dH4"/>
                             <constraint firstItem="yFu-mt-uho" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="yCP-T0-Xjz"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="testView" destination="8bC-Xf-vdC" id="hw9-Sf-Dr5"/>
                         <outlet property="webView" destination="yFu-mt-uho" id="Eol-vY-evz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="117.59999999999999" y="123.68815592203899"/>
+            <point key="canvasLocation" x="117.1875" y="123.63281249999999"/>
         </scene>
     </scenes>
     <resources>
-        <image name="backButton58.png" width="58" height="58"/>
-        <image name="forwardButtonPNG58.png" width="58" height="58"/>
-        <image name="homeButton58.png" width="58" height="58"/>
+        <image name="NewHome.png" width="58" height="58"/>
     </resources>
 </document>

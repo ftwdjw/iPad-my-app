@@ -25,6 +25,7 @@
 		1B7F8C571DCBD28000FC6D93 /* backButton58.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B7F8C561DCBD28000FC6D93 /* backButton58.png */; };
 		1B7F8C591DCBD28B00FC6D93 /* homeButton58.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1B7F8C581DCBD28B00FC6D93 /* homeButton58.jpeg */; };
 		1B7F8C5B1DCBD2E200FC6D93 /* homeButton58.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B7F8C5A1DCBD2E200FC6D93 /* homeButton58.png */; };
+		1BAB96F71DF594D80008AA35 /* NewHome.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BAB96F61DF594D80008AA35 /* NewHome.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		1B7F8C561DCBD28000FC6D93 /* backButton58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backButton58.png; sourceTree = "<group>"; };
 		1B7F8C581DCBD28B00FC6D93 /* homeButton58.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = homeButton58.jpeg; sourceTree = "<group>"; };
 		1B7F8C5A1DCBD2E200FC6D93 /* homeButton58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homeButton58.png; sourceTree = "<group>"; };
+		1BAB96F61DF594D80008AA35 /* NewHome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NewHome.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				1B7F8C4E1DCBCC5900FC6D93 /* forwardButtonPNG76.png */,
 				1B7F8C561DCBD28000FC6D93 /* backButton58.png */,
 				1B7F8C441DCBCB6000FC6D93 /* forwardButtonPNG20.png */,
+				1BAB96F61DF594D80008AA35 /* NewHome.png */,
 				1B7F8C521DCBCD1300FC6D93 /* forwardButtonPNG167.png */,
 				1B7F8C501DCBCC9E00FC6D93 /* forwardButtonPNG152.png */,
 				1B7F8C4A1DCBCBF800FC6D93 /* forwardButtonPNG29.png */,
@@ -174,6 +177,7 @@
 				1B7F8C4F1DCBCC5900FC6D93 /* forwardButtonPNG76.png in Resources */,
 				1B7F8C381DCBC8F400FC6D93 /* LaunchScreen.storyboard in Resources */,
 				1B7F8C511DCBCC9E00FC6D93 /* forwardButtonPNG152.png in Resources */,
+				1BAB96F71DF594D80008AA35 /* NewHome.png in Resources */,
 				1B7F8C471DCBCB9100FC6D93 /* forwardButtonPNG40.png in Resources */,
 				1B7F8C591DCBD28B00FC6D93 /* homeButton58.jpeg in Resources */,
 				1B7F8C5B1DCBD2E200FC6D93 /* homeButton58.png in Resources */,
@@ -362,6 +366,7 @@
 				1B7F8C3E1DCBC8F400FC6D93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

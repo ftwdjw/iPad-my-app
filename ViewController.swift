@@ -11,15 +11,8 @@ import UIKit
 class ViewController: UIViewController, UIWebViewDelegate {
     
     
-
-    
-    @IBAction func goBack(_ sender: Any) {
-        webView.goBack()
-        print("\ngo back")
-    }
-    
-  
-    @IBAction func goHome(_ sender: Any) {
+    @IBAction func newHome(_ sender: UIButton) {
+        
         let url = NSURL (string: "http://www.wsj.com/");
         let requestObj = NSURLRequest(url: url! as URL);
         webView.loadRequest(requestObj as URLRequest);
@@ -28,13 +21,20 @@ class ViewController: UIViewController, UIWebViewDelegate {
         URLCache.shared.removeAllCachedResponses()
         
         print("removed cache")
+        
+        
+        
     }
     
     
-    @IBAction func goForward(_ sender: Any) {
-        webView.goForward()
-        print("\ngo forward")
-    }
+    
+    
+    @IBOutlet var testView: UIView!
+    
+    //initialize left,right and down UI swipe gesture recognizers
+    let leftSwipe = UISwipeGestureRecognizer()
+    let rightSwipe = UISwipeGestureRecognizer()
+
   
     
     @IBOutlet weak var webView: UIWebView!
@@ -48,6 +48,32 @@ class ViewController: UIViewController, UIWebViewDelegate {
         
         self.webView.delegate = self
         print("web view did load")
+        
+        
+        
+        testView.addGestureRecognizer(leftSwipe)
+        leftSwipe.direction = .left
+        
+        testView.addGestureRecognizer(rightSwipe)
+        rightSwipe.direction = .right
+        
+        
+        testView.isUserInteractionEnabled  = true
+        
+        leftSwipe.addTarget(self, action: #selector(ViewController.swipedViewLeft))
+        
+        rightSwipe.addTarget(self, action: #selector(ViewController.swipedViewRight))
+        
+       
+        
+        //tapView.addGestureRecognizer(tapRec)
+         //tapRec.addTarget(self, action: #selector(ViewController.tappedView))
+        
+        //tapView.isUserInteractionEnabled = true;
+    
+     
+        
+        print("view did load")
         
         
     }
@@ -70,9 +96,32 @@ class ViewController: UIViewController, UIWebViewDelegate {
     }
         
     }
+    
+    
+    func swipedViewLeft(){
+        
+        print("Swipe Left")
+     
+        webView.goBack()
+        print("\ngo back")
+        
+    }
+    
+    func swipedViewRight(){
+        print("Swipe Right")
+        
+        webView.goForward()
+        print("\ngo forward")
+        
+        
+    }
+    
+
+    
+    
 }
-    
-    
+
+
 
 
 
